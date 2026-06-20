@@ -18,14 +18,14 @@ results to a CSV.
 
 Work through them in numbered order — each one adds a new scraping technique.
 
-| # | Notebook | Site scraped | What it does | Output |
-|---|----------|--------------|--------------|--------|
-| 1 | [Scrape_part1_ArizonaRcok.ipynb](Scrape_part1_ArizonaRcok.ipynb) | Arizona rock & mineral clubs list — [rocktumbler.com](https://rocktumbler.com/blog/rock-and-mineral-clubs/) | First scrape: parse a nested HTML table with BeautifulSoup into a list of dictionaries | — |
-| 2 | [Scrape_part2_leMonde_draft.ipynb](Scrape_part2_leMonde_draft.ipynb) | *Le Monde* — [lemonde.fr](https://www.lemonde.fr/) | Practice with `find`, `select`, and `select_one` CSS selectors on a news homepage | — |
-| 3 | [Scrape_part3_water.ipynb](Scrape_part3_water.ipynb) | SC water systems — [dww.des.sc.gov](https://dww.des.sc.gov/DWW/) | Submit a search **form**, scrape results, handle failures with try/except | [water.csv](water.csv) |
-| 4 | [Scrape_part4_wikipedia.ipynb](Scrape_part4_wikipedia.ipynb) | List of US Presidents — [Wikipedia](https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States) | Pull a table with `pandas.read_html` (plus request headers) | — |
-| 5 | [Scrape_part5_courtcases_multiplepages.ipynb](Scrape_part5_courtcases_multiplepages.ipynb) | TN Bankruptcy Court opinions — [tnwb.uscourts.gov](https://www.tnwb.uscourts.gov/Search/Search.aspx) (search: "CAR") | Scrape **across multiple result pages**, split detail strings, download linked PDFs | [courtcases10.csv](courtcases10.csv), [courtcases_page234.csv](courtcases_page234.csv) |
-| 6 | [Scrape_part6_Thirdparty.ipynb](Scrape_part6_Thirdparty.ipynb) | AZ third-party driver license locations — [travel-id-documents.az.gov](https://travel-id-documents.az.gov/authorized-third-party-driver-license-locations) | Get past a **403 block** using user-agent headers / `curl_cffi` | [third_party_locations.csv](third_party_locations.csv) |
+| # | Notebook | Site scraped | What it does |
+|---|----------|--------------|--------------|
+| 1 | [Scrape_part1_ArizonaRcok.ipynb](Scrape_part1_ArizonaRcok.ipynb) | Arizona rock & mineral clubs list — [rocktumbler.com](https://rocktumbler.com/blog/rock-and-mineral-clubs/) | First scrape: parse a nested HTML table with BeautifulSoup into a list of dictionaries |
+| 2 | [Scrape_part2_leMonde_draft.ipynb](Scrape_part2_leMonde_draft.ipynb) | *Le Monde* — [lemonde.fr](https://www.lemonde.fr/) | Practice with `find`, `select`, and `select_one` CSS selectors on a news homepage |
+| 3 | [Scrape_part3_water.ipynb](Scrape_part3_water.ipynb) | SC water systems — [dww.des.sc.gov](https://dww.des.sc.gov/DWW/) | Submit a search **form**, scrape results, handle failures with try/except |
+| 4 | [Scrape_part4_wikipedia.ipynb](Scrape_part4_wikipedia.ipynb) | List of US Presidents — [Wikipedia](https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States) | Pull a table with `pandas.read_html` (plus request headers) |
+| 5 | [Scrape_part5_courtcases_multiplepages.ipynb](Scrape_part5_courtcases_multiplepages.ipynb) | TN Bankruptcy Court opinions — [tnwb.uscourts.gov](https://www.tnwb.uscourts.gov/Search/Search.aspx) (search: "CAR") | Scrape **across multiple result pages**, split detail strings, download linked PDFs |
+| 6 | [Scrape_part6_Thirdparty.ipynb](Scrape_part6_Thirdparty.ipynb) | AZ third-party driver license locations — [travel-id-documents.az.gov](https://travel-id-documents.az.gov/authorized-third-party-driver-license-locations) | Get past a **403 block** using user-agent headers / `curl_cffi` |
 
 ## Sites scraped (summary)
 
